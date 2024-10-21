@@ -1,20 +1,71 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+---
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Metyis-Terraform-Central
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Welcome to the **Metyis-Terraform-Central** repository! This repository serves as the central hub for all Terraform modules and examples across our projects.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Overview
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+This repository is designed to be a comprehensive source of knowledge and resources for Terraform modules. It includes:
+
+- A collection of reusable Terraform modules.
+- Examples demonstrating how to use these modules in various scenarios.
+
+## Contributing
+
+We encourage contributions to keep this repository up-to-date and useful for everyone. To add a new version or your own modules that could be beneficial within Metyis, please follow these steps:
+
+1. **GitOps Strategy**: Use the GitOps strategy with the new feature method.
+2. **Create a Pull Request**: Submit a pull request with your changes.
+
+## Working Example
+
+Please upload a working example of your module to this repository. Ensure that each module includes a `README.md` file explaining how to use it.
+
+## Example Module README.md
+
+Here is a template for the `README.md` file within your module:
+
+```markdown
+# Module Name
+
+## Description
+
+Provide a brief description of what this module does.
+
+## Usage
+
+```hcl
+module "example" {
+  source = "path/to/module"
+
+  # Module variables
+  variable1 = "value1"
+  variable2 = "value2"
+}
+```
+
+## Inputs
+
+| Name        | Description           | Type   | Default | Required |
+|-------------|-----------------------|--------|---------|----------|
+| `variable1` | Description of var1   | string | `""`    | yes      |
+| `variable2` | Description of var2   | string | `""`    | yes      |
+
+## Outputs
+
+| Name        | Description           |
+|-------------|-----------------------|
+| `output1`   | Description of output1|
+
+## Example
+
+Provide an example of how to use this module.
+
+```
+
+## Support
+
+For any questions or suggestions, please reach out to the Metiys Cloud Ops Team.
+
+---
